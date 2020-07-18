@@ -31,7 +31,7 @@ char choice;
 	password.append(figures);
 	cout<<"Enter the character number of your password:";//sifrenizin karakter sayisini giriniz.
 	cin>>character_number;
-	cout<<"Password creating: ";//sifre olusturuluyor 
+	cout<<"Password has been creating: ";//sifre olusturuluyor 
 	for(int i=0;i<character_number;i++){
 	cout<<password[rand()%(password.length()-0+1)+0]; //sifre yaziliyor//typing password.
 	}
