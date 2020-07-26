@@ -1,7 +1,9 @@
 /*
 Draw a flow chart of an algorithm to print Floyd's Triangle.
 Number of rows in Floyd's triangle will be given from keyboard.
-Sample triangle for 4 rows is as shown below
+Sample triangle for 4 rows is as shown below.
+Then, Write a program for this algorithm in C++.
+
 1
 01
 101
