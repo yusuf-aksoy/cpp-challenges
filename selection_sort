@@ -1,0 +1,27 @@
+#include <stdio.h>
+//selection sort
+void selectionSort(int a[],int n) {
+	int minimum_index = 0;
+	int temp;
+	for (int i = 0; i < n - 1; i++) {
+		minimum_index = i;
+		for (int j = i + 1; j < n; ++j) {
+			if (a[j]<a[minimum_index]) {
+				temp = a[minimum_index];
+				a[minimum_index] = a[j];
+				a[j] = temp;
+			}
+		}
+
+	}
+
+}
+
+int main() {
+	int dizi[] = { 9,8,7,6,5,4 };
+	int n = sizeof(dizi) / sizeof(int);
+	selectionSort(dizi, n);
+	for (int i = 0; i < n; ++i)
+		printf("%d ", dizi[i]);
+	return 0;
+}
